@@ -1,6 +1,6 @@
 {
   "name": "@pdls/module-b",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@pdls/module-a": "^0.0.2"
+    "@pdls/module-a": "^0.0.3"
   },
   "bin": {
     "mdb": "./index.js"
