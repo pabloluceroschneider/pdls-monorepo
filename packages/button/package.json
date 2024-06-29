@@ -1,16 +1,23 @@
 {
   "name": "@pdls/button",
   "version": "0.0.3",
-  "main": "dist/index.js",
+  "main": "index.ts",
+  "files": [
+    "/dist"
+  ],
   "license": "ISC",
   "scripts": {
     "start": "ts-node .",
     "build": "tsc"
   },
   "dependencies": {
+    "react": "^18.3.1",
     "typescript": "^5.5.2"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3"
   }
 }
