@@ -1,6 +1,6 @@
 {
   "name": "@pdls/button",
-  "version": "0.0.3",
+  "version": "0.0.4-alpha.0",
   "main": "index.ts",
   "files": [
     "/dist"
