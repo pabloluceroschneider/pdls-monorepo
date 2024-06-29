@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "mdb",
-    "lerna": "lerna"
+    "lerna": "lerna",
+    "build": "lerna run build",
+    "test": "lerna run test"
   },
   "keywords": [],
   "author": "pablo daniel lucero schneider",

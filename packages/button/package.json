@@ -1,0 +1,16 @@
+{
+  "name": "@pdls/button",
+  "version": "0.0.2",
+  "main": "dist/index.js",
+  "license": "ISC",
+  "scripts": {
+    "start": "ts-node .",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "typescript": "^5.5.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
