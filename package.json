@@ -1,0 +1,22 @@
+{
+  "name": "pdls",
+  "version": "1.0.0",
+  "description": "Monorepo pdls - pablo daniel lucero schneider",
+  "main": "index.js",
+  "scripts": {
+    "start": "mdb",
+    "lerna": "lerna"
+  },
+  "keywords": [],
+  "author": "pablo daniel lucero schneider",
+  "private": true,
+  "license": "ISC",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "dependencies": {
+    "lerna": "^8.1.5"
+  }
+}
