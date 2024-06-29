@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 
-require('../module-a');
-console.log('@pdls/module-b');
+require('@pdls/module-a');
+console.log('module-b');

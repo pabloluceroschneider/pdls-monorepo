@@ -1,2 +1,5 @@
-console.log('@pdls/module-a');
-require('../module-b');
+console.log('module-a');
+const { log } = require('@pdls/button');
+require('@pdls/module-b');
+
+log('log desde module-a');
